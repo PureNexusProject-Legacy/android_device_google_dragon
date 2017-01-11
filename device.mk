@@ -120,6 +120,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/dragon/audio_effects.conf:system/etc/audio_effects.conf
 
+# apns.conf and old-apns.conf
+PRODUCT_COPY_FILES += \
+    device/google/dragon/apns-conf.xml:system/etc/apns-conf.xml \
+    device/google/dragon/old-apns-conf.xml:system/etc/old-apns-conf.xml
+
 PRODUCT_AAPT_CONFIG := normal large xlarge hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
