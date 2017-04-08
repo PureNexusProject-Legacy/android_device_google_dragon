@@ -164,6 +164,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
     ro.com.widevine.cachesize=16777216
 
+# assistant prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=false
+
+# recents prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.recents.grid=true
+
 #TODO(dgreid) is this right?
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
